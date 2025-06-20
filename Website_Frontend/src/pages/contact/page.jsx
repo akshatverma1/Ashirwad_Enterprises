@@ -67,9 +67,9 @@ export default function ContactPage() {
             </div>
             <h3 className="text-xl font-bold mb-2">Our Location</h3>
             <p className="text-muted-foreground">
-              123 Industrial Area, Phase II
+              A-1,Ganesh Dham,Sector-C
               <br />
-              Panchkula, Haryana 134109
+              Sanwer Road,Indore
               <br />
               India
             </p>
@@ -82,8 +82,8 @@ export default function ContactPage() {
               <Phone className="h-6 w-6 text-white" />
             </div>
             <h3 className="text-xl font-bold mb-2">Phone & Email</h3>
-            <p className="text-muted-foreground mb-1">+91 98765 43210</p>
-            <p className="text-muted-foreground">info@ashirwadenterprises.com</p>
+            <p className="text-muted-foreground mb-1">+91 9109621850</p>
+            <p className="text-muted-foreground">ashirwad.2512@gmail.com</p>
           </CardContent>
         </Card>
 
@@ -232,13 +232,6 @@ export default function ContactPage() {
               us directly.
             </p>
           </div>
-        </div>
-      </div>
-
-      <div className="mt-16 h-[400px] rounded-lg overflow-hidden">
-        {/* Replace with actual Google Maps embed */}
-        <div className="w-full h-full bg-secondary flex items-center justify-center">
-          <p className="text-muted-foreground">Google Maps Location Embed</p>
         </div>
       </div>
     </div>

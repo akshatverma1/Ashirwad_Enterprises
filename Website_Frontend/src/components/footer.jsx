@@ -16,22 +16,10 @@ export default function Footer() {
               services.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              {/* <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -53,16 +41,7 @@ export default function Footer() {
                   Services
                 </Link>
               </li>
-              <li>
-                <Link to="/projects" className="text-muted-foreground hover:text-primary transition-colors">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link to="/photos" className="text-muted-foreground hover:text-primary transition-colors">
-                  Photos
-                </Link>
-              </li>
+
               <li>
                 <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
                   Contact
@@ -117,20 +96,20 @@ export default function Footer() {
               <li className="flex">
                 <MapPin className="h-5 w-5 text-primary mr-3 shrink-0" />
                 <span className="text-muted-foreground">
-                  123 Industrial Area, Phase II
+                  A-1,Ganesh Dham,Sector-C
                   <br />
-                  Panchkula, Haryana 134109
+                  Sawer Road,Indore
                   <br />
                   India
                 </span>
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-primary mr-3 shrink-0" />
-                <span className="text-muted-foreground">+91 98765 43210</span>
+                <span className="text-muted-foreground">+91 9109621850</span>
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-primary mr-3 shrink-0" />
-                <span className="text-muted-foreground">info@ashirwadenterprises.com</span>
+                <span className="text-muted-foreground">ashirwad.2512@gmail..com</span>
               </li>
             </ul>
           </div>
@@ -147,9 +126,6 @@ export default function Footer() {
               </Link>
               <Link to="#" className="hover:text-primary transition-colors">
                 Terms of Service
-              </Link>
-              <Link to="#" className="hover:text-primary transition-colors">
-                Sitemap
               </Link>
             </div>
           </div>

@@ -15,13 +15,7 @@ export default function AboutSection() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
-            <img
-              src="/images/placeholder.jpg"
-              alt="Ashirwad Enterprises Facility"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">About Ashirwad Enterprises</h2>
             <div className="section-divider"></div>

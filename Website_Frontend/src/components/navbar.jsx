@@ -31,8 +31,6 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
-    { href: "/projects", label: "Projects" },
-    { href: "/photos", label: "Photos" },
     { href: "/contact", label: "Contact" },
   ]
 
@@ -68,7 +66,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center">
               <Phone className="h-4 w-4 text-primary mr-2" />
-              <span className="text-sm">+91 98765 43210</span>
+              <span className="text-sm">+91 9109621850</span>
             </div>
             <Link to="/contact">
               <Button>Get Quote</Button>

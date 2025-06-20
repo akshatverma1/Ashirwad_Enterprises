@@ -92,7 +92,7 @@ export default function ServicesPage() {
               <div
                 className={`relative h-[400px] rounded-lg overflow-hidden shadow-xl ${index % 2 === 1 ? "md:order-1" : ""}`}
               >
-                <img src={service.image || "/placeholder.svg"} alt={service.title}  className="object-cover" />
+                
               </div>
             </div>
           </div>

@@ -49,7 +49,7 @@ export default function ProcessSection() {
           {processes.map((process, index) => (
             <Card key={index} className="border-none bg-background">
               <CardContent className="p-8">
-                <div className="text-5xl font-bold text-primary/20 mb-4">{process.number}</div>
+                <div className="text-5xl font-bold text-primary mb-4">{process.number}</div>
                 <h3 className="text-xl font-bold mb-3">{process.title}</h3>
                 <p className="text-muted-foreground">{process.description}</p>
               </CardContent>
